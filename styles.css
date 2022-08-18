@@ -111,7 +111,10 @@ p{
     background-color: var(--color-p-porange);
 }
 .attribution{
-    display: inline;
+    padding: 5%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
 }
 a:hover{
     color: var(--color-n-black);
@@ -145,7 +148,7 @@ h1, h2{
 }
 .button img{
     inline-size: 1em;
-    color: var(--color-n-white);
+    fill-opacity: var(--color-n-white);
 }
 .button:hover{
     color: var(--color-n-white);
