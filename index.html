@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum=1.0, minimum-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -15,66 +16,74 @@
 
 <body>
   <div class="wraper">
-  <header class="header">
-    <div class="header-content">
-      <div class="nav">
-      <img src="images/logo.svg" alt="logo">
-      <nav class="menu">
-        <ul>
-          <li><a href="#collections">Collections</a></li>
-          <li><a href="#men">Men</a></li>
-          <li><a href="#women">Women</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="header-content">
+        <div class="nav">
+          <div class="logo-menu">
+            <a class="menu-icon" href="#categories"><img src="images/icon-menu.svg" alt=""></a>
+            <img src="images/logo.svg" alt="logo">
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#collections">Collections</a></li>
+              <li><a href="#men">Men</a></li>
+              <li><a href="#women">Women</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="icons">
+          <a id="cart" href="#cart">
+            <img src="images/icon-cart.svg" alt="cart">
+          </a>
+          <a class="avatar" href="#profile">
+            <img src="images/image-avatar.png" alt="avatar">
+          </a>
+        </div>
       </div>
-      <div class="icons">
-        <a id="cart">
-          <img src="images/icon-cart.svg" alt="cart">
-        </a>
-        <a class="avatar">
-          <img src="images/image-avatar.png" alt="avatar">
-        </a>
-      </div>
-    </div>
-    <hr>
-  </header>
- 
-  <main class="container">
-    <aside class="product">
-      <section class="product-1">
-        <img src="images/image-product-1.jpg" alt="">
+      <hr>
+    </header>
+
+    <main class="container">
+      <aside class="product">
+        <section class="product-1">
+          <img src="images/image-product-1.jpg" alt="">
+        </section>
+        <div class="products">
+          <ul class="products-imgs">
+            <li><a class="pro" href="#img1"><img src="images/image-product-1-thumbnail.jpg" alt=""></a></li>
+            <li><a class="pro" href="#img2"><img src="images/image-product-2-thumbnail.jpg" alt=""></a></li>
+            <li><a class="pro" href="#img3"><img src="images/image-product-3-thumbnail.jpg" alt=""></a></li>
+            <li><a class="pro" href="#img4"><img src="images/image-product-4-thumbnail.jpg" alt=""></a></li>
+          </ul>
+        </div>
+      </aside>
+      <section class="product-details">
+        <div>
+          <h4>SNEAKER COMPANY</h4>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole,
+            they’ll withstand everything the weather can offer.</p>
+          <div class="prices">
+            <h2>$125.00</h2>
+            <h3>50%</h3>
+          </div>
+          <h4 class="before">$250.00</h4>
+        </div>
+        <div>
+          <!-- buttons + 0 - cantidadesxd-->
+          <a href="#add" class="button">
+            <img src="images/icon-cart.svg" alt="">
+            Add to cart</a>
+
+        </div>
       </section>
-      <nav class="products">
-        <ul>
-          <li><a href=""><img src="images/image-product-1-thumbnail.jpg" alt=""></a></li>
-          <li><a href=""><img src="images/image-product-2-thumbnail.jpg" alt=""></a></li>
-          <li><a href=""><img src="images/image-product-3-thumbnail.jpg" alt=""></a></li>
-          <li><a href=""><img src="images/image-product-4-thumbnail.jpg" alt=""></a></li>
-        </ul>
-      </nav>
-    </aside>
-    <section class="product-details">
-      <div>
-        <h4>SNEAKER COMPANY</h4>
-        <h1>Fall Limited Edition Sneakers</h1>
-        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole,
-          they’ll withstand everything the weather can offer.</p>
-        <h2>$125.00</h2>
-        <h3>50%</h3>
-        <h4>$250.00</h4>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/andyortz" target="_blank">Andy Ortiz</a>.
       </div>
-      <div>
-        <!-- buttons + 0 - cantidades-->
-        Add to cart
-      </div>
-    </section>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/andyortz" target="_blank">Andy Ortiz</a>.
-    </div>
-  </main>
+    </main>
   </div>
 </body>
 
